@@ -1,0 +1,284 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    .navbar {
+        display: flex;
+        height: 20vh;
+        align-items: center;
+        gap: 50px;
+        justify-content: space-around;
+        width: 100%;
+        /* background-color: rgb(166, 221, 221); */
+         background-image: url("https://st4.depositphotos.com/19233536/21212/i/450/depositphotos_212125902-stock-photo-active-mother-daughter-white-dresses.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+
+        .logo {
+            img {
+                width: 400px;
+            }
+        }
+
+        .text {
+            display: flex;
+            gap: 20px;
+
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+            }
+        }
+
+        .btn {
+            button {
+                background-color: black;
+                color: white;
+                font-size: 20px;
+                border-radius: 20px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .title {
+        /* border: 1px solid rgb(174, 174, 189); */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        height: 100vh;
+        padding: 50px;
+        /* background-color: rgb(166, 221, 221); */
+        background-image: url("https://st4.depositphotos.com/19233536/21212/i/450/depositphotos_212125902-stock-photo-active-mother-daughter-white-dresses.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-style: normal;
+            text-align: justify;
+        }
+
+        button {
+            border-radius: 20px;
+            width: 200px;
+            padding: 10px;
+            font-size: 20px;
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+
+        .img {
+            img {
+                width: 100%;
+            }
+        }
+
+        .text1 {
+            /* border: 1px solid black; */
+            width: 50%;
+            padding: 20px;
+
+            #one {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 22px;
+            }
+
+            .text2 {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                padding: 10px;
+
+                h1 {
+                    color: red;
+                    font-size: 22px;
+                }
+
+                h2 {
+                    font-size: 22px;
+                }
+            }
+
+            .text4 {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                padding: 10px;
+
+                .cus2 {
+                    h1 {
+                        color: red;
+                        font-size: 22px;
+                    }
+
+                    h2 {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+
+            .text3 {
+                display: flex;
+                gap: 20px;
+                padding: 20px;
+
+                .cus {
+                    display: flex;
+
+                    i {
+                        font-size: 20px;
+                        color: gray;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        color: gray;
+                    }
+
+                }
+            }
+
+            .btn1 {
+                button {
+
+
+                    border-radius: 20px;
+                    width: 200px;
+                    padding: 10px;
+                    font-size: 17px;
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    .cards {
+        border: 1px solid black;
+        width: fit-content;
+        background-color: black;
+        color: white;
+        height: 400%;
+        align-items: center;
+
+        .cont {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+
+            /* border: 1px solid black; */
+            .cont1 {
+                border: 1px solid black;
+                width: 85%;
+
+                h1 {
+                    text-transform: capitalize;
+                    font-size: 35px;
+                    font-weight: bold;
+                    padding: 10px;
+                }
+
+                p {
+                    font-size: 25px;
+                    padding: 10px;
+                }
+            }
+
+            .cont2 {
+                padding: 30px;
+
+                #th {
+                    border-radius: 20px;
+                    width: 180px;
+                    padding: 10px;
+                    font-size: 17px;
+                    background-color: black;
+                    color: white;
+                    border-color: white;
+
+                }
+            }
+
+        }
+
+        .maincard {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            padding: 10px;
+            align-items: stretch;
+
+             .card {
+                border: 1px solid white;
+                background-color: white;
+                color: black;
+                border-radius: 10px;
+                width: 25%;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                padding: 10px;
+                img {
+                    width: 30%;
+                }
+                h1{
+                    font-family: cursive;
+                }
+                p{
+                    text-align: justify;
+                    font-family: cursive;
+                }
+            }
+        }
+
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 40px;
+
+        h1 {
+            font-family: monospace;
+            font-size: 40px;
+        }
+
+        p {
+            font-family: cursive;
+            text-align: center;
+            font-size: larger;
+        }
+
+        button {
+            font-size: large;
+            border-radius: 19px;
+            padding: 10px;
+            width: 350px;
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+}
